@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-list">
+           
+            <div class="todo-list-item">
+                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="item-title">Sample Task Title</span>
+                <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
+            </div>
+
+              <div class="todo-list-item">
+                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="item-title">Sample Task Title</span>
+                <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
+            </div>
+
+              <div class="todo-list-item">
+                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="item-title">Sample Task Title</span>
+                <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
+            </div>
+            
+        </div>
+
+        <div class="todo-form">
+            <input type="text" class="todo-title" placeholder="title">
+            <textarea class="todo-description" placeholder="Description"></textarea>
+            
+            <div class="todo-tags">
+                <button class="tag-btn tag-today active">
+                    <span class="tag-icon"></span> Today
+                    <span class="tag-remove">×</span>
+                </button>
+                <button class="tag-btn tag-priority">
+                    <span class="tag-icon"></span> Priority
+                </button>
+                <button class="tag-btn tag-reminders">
+                    <span class="tag-icon"></span> Reminders
+                </button>
+                <button class="tag-btn tag-more">•••</button>
+            </div>
+
+            <div class="todo-footer">
+                <div class="todo-inbox">
+                    <span class="inbox-icon"></span>
+                    <select class="inbox-select">
+                        <option>Inbox</option>
+                        <option>Work</option>
+                        <option>Personal</option>
+                    </select>
+                </div>
+                
+                <div class="todo-actions">
+                    <button class="btn btn-cancel">Cancel</button>
+                    <button class="btn btn-save" id="save-todo">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
