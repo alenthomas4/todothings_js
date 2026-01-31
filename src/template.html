@@ -6,23 +6,71 @@
     <title>todo</title>
 </head>
 <body>
-    <div class="todo-container">
-        <div class="todo-list">
+    <div class="app-container">
+        <!-- Left Navbar -->
+        <nav class="left-navbar">
+            <button class="nav-btn add-task-btn">
+                <span>Add task</span>
+            </button>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            
+            <div class="nav-section">
+                <a href="#" class="nav-link">
+                    <span>Inbox</span>
+                    <span class="nav-count">10</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>Today</span>
+                    <span class="nav-count">4</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>Upcoming</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>Filters & Labels</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>Completed</span>
+                </a>
+            </div>
+            
+            <div class="projects-section">
+                <div class="projects-header">
+                    <span>My Projects</span>
+                    <button class="toggle-projects">▼</button>
+                    <button class="new-project"> + </button>
+                </div>
+                <div class="projects-list">
+                    <a href="#" class="project-link">
+                        <span>Getting Started</span>
+                        <span class="nav-count">14</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="todo-container">
+                <div class="todo-list">
            
             <div class="todo-list-item">
-                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="radio-icon"></span>
                 <span class="item-title">Sample Task Title</span>
                 <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
             </div>
 
               <div class="todo-list-item">
-                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="radio-icon"></span>
                 <span class="item-title">Sample Task Title</span>
                 <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
             </div>
 
               <div class="todo-list-item">
-                <span class="radio-icon" style="display:inline-block;width:20px;height:20px;border:2px solid #bbb;border-radius:50%;margin-right:10px;vertical-align:middle;"></span>
+                <span class="radio-icon"></span>
                 <span class="item-title">Sample Task Title</span>
                 <span class="item-date" style="color:#43a047;font-size:13px;margin-left:10px;">Today</span>
             </div>
@@ -63,6 +111,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 </html>
